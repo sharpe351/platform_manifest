@@ -41,14 +41,24 @@
 
   <!-- Mike's projects -->
   <project path="manifest" name="platform_manifest" remote="sharpe351" revision="EXODUS" />
+  <!-- project path="vendor/FUHU_INC/nabi2_xd" name="FUHU_INC_nabi2_xd-vendor" remote="sharpe351" revision="L5" groups="vendor" / -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sharpe351" revision="EXODUS" />
+  <project path="frameworks/base" name="frameworks_base" remote="sharpe351" revision="EXODUS" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="sharpe351" revision="L5" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="sharpe351" revision="L5" />
+  <!-- project path="vendor/motorola" name="vendor_motorola" remote="sharpe351" revision="L5" groups="vendor"/ -->
+  <!-- project path="device/FUHU_INC/nabi2_xd" name="FUHU_INC_nabi2_xd-device" remote="sharpe351" revision="L5" / -->
+  <!-- project path="kernel/FUHU_INC/nabi2_xd" name="FUHU_INC_nabi2_xd-kernel" remote="sharpe351" revision="L5" / -->
+  <!-- project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="sharpe351" revision="L5" / -->
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="sharpe351" revision="L5" />
 
   <!-- EXODUS projects -->
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir-exodus" revision="EXODUS" />  
-  <project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" revision="EXODUS" />
+  <!-- project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" revision="EXODUS" / -->
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="vanir-exodus" revision="EXODUS" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir-exodus" revision="EXODUS" />
+  <!-- project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir-exodus" revision="EXODUS" / -->
   <project path="system/core" name="system_core" remote="vanir-exodus" revision="EXODUS" groups="pdk" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir-exodus" revision="EXODUS" groups="vendor" />
   <project path="build" name="build" remote="vanir-exodus" revision="EXODUS" groups="pdk">
@@ -56,6 +66,20 @@
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
   </project>
+
+   <!-- DARK UI -->
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="will" revision="L5" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="will" revision="L5" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="will" revision="L5" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="will" revision="L5" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="will" revision="L5" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="aospL5" remote="will" revision="L5" />
+  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="L5" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="will" revision="L5" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="will" revision="L5" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="will" revision="L5" />
+  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="will" revision="L5" />
+  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="will" revision="L5" />
 
   <!-- Standard vanir build projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -71,7 +95,7 @@
   <project path="development" name="android_development" />
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="L5" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="L5" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" revision="L5" />
+  <!-- project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" revision="L5" / -->
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" revision="L5" groups="device" />
   <!-- project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" revision="L5" / -->
   <project path="device/common" name="android_device_common" groups="pdk" />
@@ -125,7 +149,7 @@
   <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" revision="L5" device="msm8960_jbbl" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="L5" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="L5" />
-  <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" revision="L5" />
+  <!-- project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" revision="L5" / -->
   <!-- project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" revision="L5" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
@@ -559,7 +583,7 @@
   <project path="libcore" name="libcore" remote="vanir" revision="L5" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" />
+  <!-- project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" / -->
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="vanir" revision="L5" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="vanir" revision="L5" />
@@ -567,24 +591,24 @@
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="vanir" revision="L5" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="vanir" revision="L5" />
-  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" />
+  <!-- project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" / -->
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="L5" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" revision="L5" />
+  <!-- project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="L5" / -->
+  <!-- project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" revision="L5" / -->
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vanir" revision="L5" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" revision="L5" />
+  <!-- project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" revision="L5" / -->
   <project path="packages/apps/Email" name="android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="L5" />
+  <!-- project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="L5" / -->
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="vanir" revision="L5" />
+  <!-- project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="vanir" revision="L5" / -->
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5" />  
+  <!-- project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5" / -->  
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="L5" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="L5" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" revision="L5" />
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
+  <!-- project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" / -->
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="L5" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" />
@@ -598,12 +622,12 @@
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" revision="L5" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" />
-  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="L5" />
+  <!-- project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="L5" / -->
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vanir" revision="L5" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vanir" revision="L5" />
+  <!-- project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vanir" revision="L5" / -->
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -613,7 +637,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vanir" revision="L5" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="aospL5" remote="vanir" revision="L5" />
+  <!-- project path="packages/services/Telephony" name="packages_services_Telephony" groups="aospL5" remote="vanir" revision="L5" / -->
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
