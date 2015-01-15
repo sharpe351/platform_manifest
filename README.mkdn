@@ -12,9 +12,6 @@ To initialize Vanir-Exodus trees, use the following command:
 
     repo init -u git://github.com/sharpe351/platform_manifest.git -b EXODUS
 
-Mac Users: initialize your local repository using:
-
-    repo init -u git://github.com/sharpe351/platform_manifest.git -b EXODUS -g darwin
 
 Then to sync up:
 
