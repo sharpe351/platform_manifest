@@ -82,6 +82,20 @@
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="will" revision="L5" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="will" revision="L5" />
 
+   <!-- Custom Toolchains -->
+  <!-- project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="UBERUTILS/LINARO-OTTER" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERUTILS/linaro-arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERUTILS/linaro-arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="UBERUTILS/arm-eabi-4.7" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="UBERUTILS/arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="SaberMod/arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="UBERUTILS/arm-eabi-4.10" remote="github" revision="master" /-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="SaberMod/arm-eabi-4.9" remote="github" revision="master" />
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/arm-androideabi-4.8" remote="github" revision="master" /-->
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="vanir" revision="L5" />
+  
+
   <!-- Standard vanir build projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="art" name="art"  groups="aospL5" remote="vanir" revision="L5" />
