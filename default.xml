@@ -51,8 +51,8 @@
   <!-- project path="kernel/FUHU_INC/nabi2_xd" name="FUHU_INC_nabi2_xd-kernel" remote="sharpe351" revision="L5" / -->
   <!-- project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="sharpe351" revision="L5" / -->
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="sharpe351" revision="L5" />
-  <project path="vendor/vanir" name="vendor_vanir" remote="vanir-exodus" revision="sharpe351" groups="vendor" />
-  <project path="build" name="build" remote="vanir-exodus" revision="sharpe351" groups="pdk">
+  <project path="vendor/vanir" name="vendor_vanir" remote="vanir-exodus" revision="EXODUS" groups="vendor" />
+  <project path="build" name="build" remote="vanir-exodus" revision="EXODUS" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
