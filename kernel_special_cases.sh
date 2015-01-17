@@ -20,6 +20,7 @@ case $1 in
 	export remote="github"
 	export remoterevision="L5"
 	export kernelsource="sharpe351/android_kernel_asus_grouper"
+    ;;
     shamu)
         export remote="will"
         export remoterevision="L5"
