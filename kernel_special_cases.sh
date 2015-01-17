@@ -21,7 +21,7 @@ case $1 in
 	export remoterevision="L5"
 	export kernelsource="sharpe351/android_kernel_asus_grouper"
     shamu)
-        export remote="vanir"
+        export remote="will"
         export remoterevision="L5"
         export kernelsource="kernel_moto_shamu"
     ;;
