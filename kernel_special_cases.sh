@@ -22,8 +22,8 @@ case $1 in
 	export kernelsource="sharpe351/android_kernel_asus_grouper"
     ;;
     shamu)
-        export remote="will"
-        export remoterevision="L5"
-        export kernelsource="kernel_moto_shamu"
+        export remote="franco"
+        export remoterevision="lollipop"
+        export kernelsource="Shamu"
     ;;
 esac

@@ -25,7 +25,9 @@
   <remote name="sharpe351"
           fetch="https://github.com/sharpe351" />
   <remote name="will"
-          fetch="https://github.com/wSedlacek" />        
+          fetch="https://github.com/wSedlacek" />
+  <remote name="franco"
+	  fetch="https://github.com/franciscofranco"/>
   <remote name="omni"
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
@@ -171,7 +173,7 @@
   <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" revision="L5" device="msm8960_jbbl" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="L5" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="L5" />
-  <!-- project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" revision="L5" / -->
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" revision="L5" />
   <!-- project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" revision="L5" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
@@ -625,7 +627,7 @@
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="vanir" revision="L5" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5" />  
+  <!--project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5" / -->  
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="L5" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="L5" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -640,6 +642,7 @@
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" />
   <!-- project path="packages/apps/Torch" name="android_packages_apps_Torch" / -->
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" revision="L5" />
