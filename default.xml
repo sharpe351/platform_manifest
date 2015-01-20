@@ -114,7 +114,7 @@
   <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" revision="L5" />
   <project path="ccache" name="ccache.git" remote="samba" revision="master" />
-  <project path="cts" name="platform/cts"  remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="cts" name="android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="dalvik" remote="vanir" revision="L5" />
   <project path="development" name="android_development" />
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="L5" />
@@ -238,13 +238,13 @@
   <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/huashan" name="android_device_sony_huashan" />
   <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" />
-  <project path="device/sony/msm8974-common" name="crdroidandroid/android_device_sony_msm8974-common" remote="github" revision="cm-12.0" />
+  <project path="device/sony/msm8974-common" name="AndroidNoob69/android_device_sony_msm8974-common" remote="github" revision="cm-12.0" />
   <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" revision="L5" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="L5" />
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="vanir" revision="L5" />
-  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
+  <project path="device/sony/rhine-common" name="AndroidNoob69/android_device_sony_rhine-common" remote="github" revision="cm-12.0" />
   <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" />
   <project path="device/sony/taoshan" name="olivieer/device_sony_taoshan" remote="github" revision="cm-11.0" />
@@ -655,6 +655,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vanir" revision="L5" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -752,9 +753,7 @@
   <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" revision="L5" />
   <project path="vendor/samsung" name="vendor_samsung" remote="vanir" revision="L5" groups="vendor" />
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="L5" groups="vendor" />
-  <!-- project path="vendor/commotio" name="commotio" remote="commotio" revision="5" groups="vendor" />
-  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" />
-  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" /> -->
+  <!-- project path="vendor/commotio" name="commotio" remote="commotio" revision="5" groups="vendor" / -->
 
 <!-- Additional vendors -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-12.0" />
