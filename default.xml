@@ -26,6 +26,8 @@
           fetch="https://github.com/sharpe351" />
   <remote name="will"
           fetch="https://github.com/wSedlacek" />
+  <remote name="cory"
+	  fetch="https://github.com/camcory"/>
   <remote name="omni"
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
@@ -38,11 +40,15 @@
           sync-j="12"
           remote="cm" />
 
+  <!-- Cory's projects for RRO -->
+  <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="cory" revision="LX-RRO" />
+  <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="cory" revision="LX-RRO" />
+  <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="LX-RRO" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="cory" revision="LX-RRO"/>
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="cory" revision="LX-RRO" />
 
   <!-- Mike's projects -->
   <project path="manifest" name="platform_manifest" remote="sharpe351" revision="EXODUS" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="sharpe351" revision="LX-RRO"/>
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="sharpe351" revision="LX-RRO" />
   <!-- project path="vendor/FUHU_INC/nabi2_xd" name="FUHU_INC_nabi2_xd-vendor" remote="sharpe351" revision="L5" groups="vendor" / -->
   <!--project path="packages/apps/Settings" name="packages_apps_Settings" remote="sharpe351" revision="EXODUS" />
   <project path="frameworks/base" name="frameworks_base" remote="sharpe351" revision="EXODUS" / -->
@@ -617,10 +623,10 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="vanir" revision="L5" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="L5" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" revision="L5" />
+  <!-- project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="L5" / -->
+  <!-- project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" revision="L5" / -->
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vanir" revision="L5" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" revision="L5" />
+  <!-- project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" revision="L5" / -->
   <project path="packages/apps/Email" name="android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="L5" />
