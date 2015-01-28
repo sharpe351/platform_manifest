@@ -21,13 +21,11 @@
           fetch="https://github.com/" />
   <remote name="vanir-exodus"
           fetch="https://github.com/VanirExodus"
-          review="vanir-exodus.net:8081" />
+          review="vanir-exodus.net:8000" />
   <remote name="sharpe351"
           fetch="https://github.com/sharpe351" />
   <remote name="will"
           fetch="https://github.com/wSedlacek" />
-  <remote name="franco"
-	  fetch="https://github.com/franciscofranco"/>
   <remote name="omni"
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
@@ -53,6 +51,7 @@
   <!-- project path="kernel/FUHU_INC/nabi2_xd" name="FUHU_INC_nabi2_xd-kernel" remote="sharpe351" revision="L5" / -->
   <!-- project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="sharpe351" revision="L5" / -->
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="sharpe351" revision="L5" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="sharpe351" revision="EXODUS" />
   <!-- project path="vendor/vanir" name="vendor_vanir" remote="sharpe351" revision="EXODUS" groups="vendor" />
   <project path="build" name="build" remote="vanir-exodus" revision="EXODUS" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -161,7 +160,6 @@
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" revision="L5" />
   <project path="device/lge/ls990" name="android_device_lge_ls990" / -->
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="L5" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" revision="L5" />
   <!-- project path="device/lge/p880" name="device_lge_p880" remote="vanir" revision="L5" />
   <project path="device/lge/v500" name="android_device_lge_v500" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="L5" />
@@ -413,7 +411,7 @@
   <project path="external/libpng" name="external_libpng" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/libppp" name="android_external_libppp" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="external/libselinux" name="android_external_libselinux" />
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -464,7 +462,7 @@
   <project path="external/openssl" name="external_openssl" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" revision="L5" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="external/pcre" name="android_external_pcre" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/pigz" name="android_external_pigz" />
   <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -642,7 +640,7 @@
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" />
-  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" />
+  <!-- project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" / -->
   <!-- project path="packages/apps/Torch" name="android_packages_apps_Torch" / -->
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" revision="L5" />
@@ -655,7 +653,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vanir" revision="L5" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" />
-  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
+  <!-- project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" / -->
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-5.0.2_r1" />

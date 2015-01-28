@@ -7,7 +7,7 @@ export remoterevision="cm-12.0"
 
 case $1 in
     hammerhead)
-        export remote="vanir"
+        export remote="sharpe351"
         export remoterevision="L5"
         export kernelsource="kernel_lge_hammerhead"
     ;;
@@ -22,8 +22,8 @@ case $1 in
 	export kernelsource="sharpe351/android_kernel_asus_grouper"
     ;;
     shamu)
-        export remote="franco"
-        export remoterevision="lollipop"
-        export kernelsource="Shamu"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_moto_shamu"
     ;;
 esac
