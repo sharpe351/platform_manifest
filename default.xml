@@ -41,10 +41,12 @@
 
   <!-- Mike's projects -->
   <project path="manifest" name="platform_manifest" remote="sharpe351" revision="EXODUS" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="sharpe351" revision="LX-RRO"/>
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="sharpe351" revision="LX-RRO" />
   <!-- project path="vendor/FUHU_INC/nabi2_xd" name="FUHU_INC_nabi2_xd-vendor" remote="sharpe351" revision="L5" groups="vendor" / -->
   <!--project path="packages/apps/Settings" name="packages_apps_Settings" remote="sharpe351" revision="EXODUS" />
-  <project path="frameworks/base" name="frameworks_base" remote="sharpe351" revision="EXODUS" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="sharpe351" revision="L5" />
+  <project path="frameworks/base" name="frameworks_base" remote="sharpe351" revision="EXODUS" / -->
+  <!-- project path="device/asus/grouper" name="device_asus_grouper" remote="sharpe351" revision="L5" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="sharpe351" revision="L5" / -->
   <!-- project path="vendor/motorola" name="vendor_motorola" remote="sharpe351" revision="L5" groups="vendor"/ -->
   <!-- project path="device/FUHU_INC/nabi2_xd" name="FUHU_INC_nabi2_xd-device" remote="sharpe351" revision="L5" / -->
@@ -62,11 +64,11 @@
   <!-- EXODUS projects -->
   <!-- project path="manifest" name="platform_manifest" remote="vanir-exodus" revision="EXODUS" / -->
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir-exodus" revision="EXODUS" />  
-  <project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" revision="EXODUS" />
+  <!--project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" revision="EXODUS" / -->
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="vanir-exodus" revision="EXODUS" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir-exodus" revision="EXODUS" />
+  <!-- project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir-exodus" revision="EXODUS" / -->
   <project path="system/core" name="system_core" remote="vanir-exodus" revision="EXODUS" groups="pdk" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir-exodus" revision="EXODUS" groups="vendor" />
   <project path="build" name="build" remote="vanir-exodus" revision="EXODUS" groups="pdk">
