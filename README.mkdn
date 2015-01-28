@@ -10,6 +10,8 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize Vanir-Exodus trees, use the following command:
 
+    repo init -u git://github.com/sharpe351/platform_manifest.git -b EXODUS_MOD_RRO
+    --or--
     repo init -u git://github.com/sharpe351/platform_manifest.git -b EXODUS
 
 
