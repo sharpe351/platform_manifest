@@ -41,14 +41,20 @@
           remote="cm" />
 
   <!-- Cory's projects for RRO -->
-  <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="cory" revision="LX-RRO" />
-  <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="cory" revision="LX-RRO" />
-  <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="LX-RRO" />
+  <project path="build" name="camcory/platform_build" remote="github" revision="LX-RRO" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="frameworks/base" name="platform_frameworks_base" remote="cory" revision="LX-RRO"/>
+  <project path="packages/apps/Contacts" name="platform_packages_apps_contacts" remote="cory" revision="LX-RRO" />
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_contacts_common" remote="cory" revision="LX-RRO" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_dialer" remote="cory" revision="LX-RRO" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="cory" revision="LX-RRO" />
+  <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="cory" revision="LX-RRO" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="cory" revision="LX-RRO" />
+  <project path="vendor/androidx" name="vendor_androidx" remote="cory" revision="LX-RRO" />
 
   <!-- Mike's projects -->
-  <project path="manifest" name="platform_manifest" remote="sharpe351" revision="EXODUS" />
+  <project path="manifest" name="platform_manifest" remote="sharpe351" revision="LX-RRO" />
   <!-- project path="vendor/FUHU_INC/nabi2_xd" name="FUHU_INC_nabi2_xd-vendor" remote="sharpe351" revision="L5" groups="vendor" / -->
   <!--project path="packages/apps/Settings" name="packages_apps_Settings" remote="sharpe351" revision="EXODUS" />
   <project path="frameworks/base" name="frameworks_base" remote="sharpe351" revision="EXODUS" / -->
@@ -75,13 +81,13 @@
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="vanir-exodus" revision="EXODUS" />
   <!-- project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir-exodus" revision="EXODUS" / -->
-  <project path="system/core" name="system_core" remote="vanir-exodus" revision="EXODUS" groups="pdk" />
+  <!-- project path="system/core" name="system_core" remote="vanir-exodus" revision="EXODUS" groups="pdk" / -->
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir-exodus" revision="EXODUS" groups="vendor" />
-  <project path="build" name="build" remote="vanir-exodus" revision="EXODUS" groups="pdk">
+  <!-- project path="build" name="build" remote="vanir-exodus" revision="EXODUS" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
-  </project>
+  </project -->
 
 
    <!-- DARK UI -->
@@ -581,11 +587,11 @@
   <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8974" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5" />
+  <!-- project path="hardware/qcom/display" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5" />
   <project path="hardware/qcom/display-caf/msm8226" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8226" />
   <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8974" / -->
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" revision="L5" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media/default" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L5" />
@@ -631,7 +637,7 @@
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="L5" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="vanir" revision="L5" />
+  <!-- project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="vanir" revision="L5" / -->
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
   <!--project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5" / -->  
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="L5" />
