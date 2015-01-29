@@ -42,8 +42,8 @@
   <!-- Mike's projects -->
   <project path="manifest" name="platform_manifest" remote="sharpe351" revision="EXODUS" />
   <!-- project path="vendor/FUHU_INC/nabi2_xd" name="FUHU_INC_nabi2_xd-vendor" remote="sharpe351" revision="L5" groups="vendor" / -->
-  <!--project path="packages/apps/Settings" name="packages_apps_Settings" remote="sharpe351" revision="EXODUS" />
-  <project path="frameworks/base" name="frameworks_base" remote="sharpe351" revision="EXODUS" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sharpe351" revision="EXODUS" />
+  <!-- project path="frameworks/base" name="frameworks_base" remote="sharpe351" revision="EXODUS" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="sharpe351" revision="L5" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="sharpe351" revision="L5" / -->
   <!-- project path="vendor/motorola" name="vendor_motorola" remote="sharpe351" revision="L5" groups="vendor"/ -->
